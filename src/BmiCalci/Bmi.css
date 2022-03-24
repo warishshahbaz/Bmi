@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXr3fH6mA_yHdKAQJNwuu10jAQccg8hL6tcrfBzxNwpIbIvaVB-4HpBF4cSJGHA3P5zZ0&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   background-color: rgb(0, 0, 0,0.4);
+   box-shadow: 2px 4px 23px;
+    opacity: 0.9;
+    margin: 23px;
+    border-radius: 12px;
+    
+    color: black;
+}
+form{
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+form label{
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+form input{
+    margin: 22px 0px;
+    /* border: 1px solid red; */
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 26px white;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+.spanBox{
+    color: blue;
+}
+.btn2{
+    font-size: 18px;
+    /* border: 2px solid yellow; */
+    box-shadow: 2px 9px 15px yellow;
+    padding: 7px;
+    margin: 12px 0;
+    background-color: rgb(187, 238, 238);
+    border-radius: 7px;
+    color: rgb(221, 139, 32);
+}
+.status{
+    margin-bottom: 12px;
+    padding: 12px;
+   
+}
+.score_span{
+    color: rgb(230, 8, 8);
+    font-size: 20px;
+}
+.score{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.img{
+    height: 120px;
+  
+}
